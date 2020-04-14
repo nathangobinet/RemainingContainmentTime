@@ -1,0 +1,25 @@
+{
+  "name": "remainingcontainmenttime",
+  "version": "1.0.0",
+  "description": "This repo allows you to know the remaining containment time",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack src/app.js -o public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathangobinet/RemainingContainmentTime.git"
+  },
+  "author": "Nathan Gobinet, Cyril Gourgouillon",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "bugs": {
+    "url": "https://github.com/nathangobinet/RemainingContainmentTime/issues"
+  },
+  "homepage": "https://github.com/nathangobinet/RemainingContainmentTime#readme"
+}
