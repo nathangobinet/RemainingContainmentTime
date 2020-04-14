@@ -6,7 +6,7 @@ function hoursDiffInDays(a, b) {
   return Math.floor((utc2 - utc1) / 1000 * 60 * 60);
 }
 
-//this const is good !
+//this const is not that good !
 const remainingTime = (date = new Date()) => {
   const uncontainmentDate = new Date(2020, 5, 11, 9);
   return Math.floor((uncontainmentDate - date) / (1000 * 60 * 60 ));
