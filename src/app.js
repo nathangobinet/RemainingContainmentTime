@@ -1,7 +1,7 @@
 //this const is not that good !
 const remainingTime = (date = new Date()) => {
   const uncontainmentDate = new Date(2020, 5, 11, 9);
-  return Math.floor((uncontainmentDate - date) / (1000 * 60 * 60 ));
+  return Math.floor((uncontainmentDate - date) / (1000 * 60 * 60 * 24 ));
 }
 
 try{
